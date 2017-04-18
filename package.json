@@ -1,0 +1,17 @@
+{
+  "name": "Veech",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-dev-server --entry ./src/js/index.js --output-filename dist/bundle.js",
+    "build:prod": "webpack src/js/index.js dist/bundle.js -p"
+  },
+  "repository": "https://github.com/aleangel1212/Veech.git",
+  "author": "Alessandro Vecchi",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
