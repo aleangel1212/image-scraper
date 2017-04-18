@@ -1,13 +1,13 @@
 {
   "name": "Veech",
   "version": "1.0.0",
-  "description": "My portfolio website",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack-dev-server",
     "build:prod": "webpack -p"
   },
-  "repository": "https://github.com/aleangel1212/Veech.git",
+  "repository": "",
   "author": "Alessandro Vecchi",
   "license": "MIT",
   "devDependencies": {
