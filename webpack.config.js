@@ -2,7 +2,6 @@ var path = require('path');
 var webpack = require('webpack');
 
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 var extractCSS = new ExtractTextPlugin({
 	filename: 'style.css'
@@ -22,7 +21,7 @@ module.exports = {
 					{
 						loader: 'babel-loader',
 						options: {
-							presets: ['es2015']
+							presets: ['react', 'es2015']
 						}
 					}
 				]
